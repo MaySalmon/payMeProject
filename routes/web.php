@@ -25,11 +25,9 @@ Route::get('/salecreation', function () {
     return view('salecreation');
 });
 
-Route::post('/insert', function () {
-    return view('insert');
-});
 
-Route::get('/api', function () {
+
+Route::post('/api', function () {
     return view('api');
 });
 

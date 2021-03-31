@@ -2,7 +2,7 @@
 
 @section('content')
 
-<form action="insert" method="POST">
+<form action="api" method="POST">
 <ul class="form-style-1">
     <h1>New Sale Creation</h1>
     @csrf
@@ -12,7 +12,7 @@
     </li>
     <li>
         <label>Product Price</label>
-        <input type="number"  name="price" class="field-long" min="0" />
+        <input type="text"  name="price" class="field-long" min="0" />
         <small class="text-muted">The price has to be a valid whole or decimal number.</small>
     </li>
     <li>
