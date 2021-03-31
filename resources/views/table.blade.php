@@ -3,7 +3,8 @@
 @section('content')
 <div class="block">
         <h3>Created Sales<h3>
-        <table border="1">
+        <table  class="table-content">
+            <thead>
             <tr>
                 <td>Sale Number</td>
                 <td>Description</td>
@@ -11,6 +12,7 @@
                 <td>Currency</td>
                 <td>Payment Link</td>
             </tr>
+            </thead>
             @foreach($sales as $sale)
             <tr>
                 <td>{{ $sale['payme_sale_id']}}</td>
