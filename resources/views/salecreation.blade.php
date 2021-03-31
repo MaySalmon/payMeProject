@@ -26,7 +26,11 @@
     </li>
     <li>
         <input type="submit" value="Insert payment details" />
-        <a href="https://preprod.paymeservice.com/sale/generate/SALE1617-1047289L-HLAC6QO2-P2RXXORP" target="myFrame">click here</a>
+    </li>
+    <li>
+        <a href="https://preprod.paymeservice.com/sale/generate/SALE1617-1047289L-HLAC6QO2-P2RXXORP" target="myFrame">click here To Pay</a>
+    </li>
+    <li>
         <a href="/table" target="myFrame">click here to see the sales table</a>
     </li>
 </ul>

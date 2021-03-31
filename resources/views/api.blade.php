@@ -74,9 +74,11 @@ $obj = json_decode($response->body());
 
  $conn->close(); 
 
-
+ 
 
 ?>
+<br></br>
+<a href="salecreation">Go Back To Sale Creation Page</a>
 
 
 

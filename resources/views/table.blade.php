@@ -6,6 +6,7 @@
         <table  class="table-content">
             <thead>
             <tr>
+                <td>DateTime</td>
                 <td>Sale Number</td>
                 <td>Description</td>
                 <td>Amount</td>
@@ -15,6 +16,7 @@
             </thead>
             @foreach($sales as $sale)
             <tr>
+                 <td>{{ $sale['datetime']}}</td>
                 <td>{{ $sale['payme_sale_id']}}</td>
                 <td>{{ $sale['product_name']}}</td>
                 <td>{{ $sale['sale_price']}}</td>

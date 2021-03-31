@@ -32,6 +32,9 @@ Route::post('/api', function () {
 });
 
 
+
+
+
 Route::view('form','salecreation');
 
 
