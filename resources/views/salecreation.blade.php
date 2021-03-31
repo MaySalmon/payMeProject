@@ -2,7 +2,7 @@
 
 @section('content')
 
-<form>
+<form action="insert" method="POST">
 <ul class="form-style-1">
     <h1>New Sale Creation</h1>
     @csrf
@@ -31,7 +31,7 @@
     </li>
 </ul>
     <div class="iframe-container">
-        <iframe  name="myFrame" height="500" width="500" frameborder="0"></iframe>
+        <iframe  name="myFrame" height="600" width="600" frameborder="0"></iframe>
      </div>
 </form>
 @endsection 

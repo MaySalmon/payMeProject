@@ -82,6 +82,7 @@ select{
 }
 
 
+
 .form-style-2 {
 	margin:10px auto;
 	max-width: 400px;
@@ -97,6 +98,14 @@ select{
 	color: #fff;
 }
 
+.form-style-2 button[type=submit]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+    font: 20px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   
+}
 .form-style-2 button[type=submit]{
 	background: #4B99AD;
 	padding: 8px 15px 8px 15px;

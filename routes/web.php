@@ -25,8 +25,19 @@ Route::get('/salecreation', function () {
     return view('salecreation');
 });
 
+Route::post('/insert', function () {
+    return view('insert');
+});
+
 Route::get('/api', function () {
     return view('api');
 });
+
+
+Route::view('form','salecreation');
+
+
+
+
 
 Route::get('table', [SaleController::class,'show']);
